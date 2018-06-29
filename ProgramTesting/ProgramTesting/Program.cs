@@ -15,6 +15,8 @@ namespace ProgramTesting
             int str, i, j, k;
             Console.WriteLine("Enter level: ");
             str = int.Parse(Console.ReadLine());
+            
+            
             #region Piramid upper
             for (i = 1; i <= str; i++)
             {
@@ -29,8 +31,9 @@ namespace ProgramTesting
               }
               Console.WriteLine();
             }
-
             #endregion
+                
+                
             #region piramid lower
             for (i = 1; i <= str; i++)
             {
@@ -46,6 +49,9 @@ namespace ProgramTesting
                 Console.WriteLine();
             }
             #endregion
+                
+                
+                
             #region Alphabet Piramid
             char ch = 'A';
             int i, j, k, m;
@@ -62,6 +68,8 @@ namespace ProgramTesting
                 ch = 'A';
             }
             #endregion
+                
+                
             #region Copy queue element to an array
             int[] arr = new int[5];
             Queue Q = new Queue(5);
@@ -76,6 +84,9 @@ namespace ProgramTesting
                 Console.WriteLine("\tItem[" + (i + 1) + "]: " + arr[i]);
             }
             #endregion
+                
+                
+                
             #region Febonacci
             int fibo = 1, add = 0, i, n, s;
             n = Convert.ToInt32(Console.ReadLine());
@@ -95,6 +106,9 @@ namespace ProgramTesting
 
             }
             #endregion
+                
+                
+                
             #region Prime number or not
             int n;
             bool flag = true;
@@ -116,6 +130,8 @@ namespace ProgramTesting
                 Console.WriteLine("Not prime");
             }
             #endregion
+                
+                
             #region Prime number in range
             int range;
             bool flag = false;
@@ -137,6 +153,8 @@ namespace ProgramTesting
                 flag = false;
             }
             #endregion
+                
+                
             #region Factorial
             int fact;
             fact = int.Parse(Console.ReadLine());
@@ -151,6 +169,8 @@ namespace ProgramTesting
             }
             Console.WriteLine(fact);
             #endregion
+                
+                
             #region Factorial with recursion
             Console.WriteLine("Enter a number");
             int number = Convert.ToInt32(Console.ReadLine());
@@ -158,6 +178,8 @@ namespace ProgramTesting
             Console.WriteLine("{0} factorial is {1}", number, fact);
             Console.ReadKey();
             #endregion
+                
+                
             #region File read write
             string s;
             Console.WriteLine("Enter text to writee in the file");
@@ -167,6 +189,8 @@ namespace ProgramTesting
             string t = File.ReadAllText("File.txt");
             Console.WriteLine(t);
             #endregion
+                
+                
             #region Bubble sort
                 int[] swap = new int[5];
                 for (int j = 0; j < swap.Length; j++)
@@ -195,6 +219,8 @@ namespace ProgramTesting
                 Console.ReadKey();
 
             #endregion
+                
+                
             #region sum of each digit in an integer
             int m, count = 0;
             int n = 767587;
@@ -208,6 +234,9 @@ namespace ProgramTesting
             }
             Console.WriteLine(count);
             #endregion
+                
+                
+                
             #region Reverse integer
             int reverse = 0;
             Console.WriteLine("Input an Interger");
@@ -222,7 +251,11 @@ namespace ProgramTesting
             }
             Console.WriteLine(reverse);
             #endregion
+                
+                
             Console.WriteLine(Palindrome.IsPalindrome("level"));
+            
+            
             #region Armstrong number
             int range, number, store, i, sum = 0, s1;
             number = int.Parse(Console.ReadLine());
@@ -245,6 +278,8 @@ namespace ProgramTesting
                 Console.WriteLine(store + " is not an Amstrong number");
             }
             #endregion
+                
+                
             #region Armstrong number in range
             int range, number, store, sum = 0, s1;
             long s2;
@@ -273,6 +308,8 @@ namespace ProgramTesting
                 }
             }
             #endregion
+                
+                
             #region Leap year
             int lpYr;
             Console.WriteLine("Enter a Year");
@@ -287,6 +324,9 @@ namespace ProgramTesting
                 Console.WriteLine("{0} Not a Leap Year",lpYr);
             }
             #endregion
+                
+                
+                
             #region binary triangle
             int binary = 0, i, j, n,k;
             Console.WriteLine("Enter level: ");
@@ -312,7 +352,13 @@ namespace ProgramTesting
                 Console.WriteLine();
             }
             #endregion
+                
+                
+                
         }
+        
+        
+        
         #region Factorial with recursion
         private static long GetFactorial(int number)
 
