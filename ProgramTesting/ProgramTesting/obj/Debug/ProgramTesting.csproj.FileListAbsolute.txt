@@ -1,0 +1,6 @@
+C:\Users\lenovo\documents\visual studio 2015\Projects\ProgramTesting\ProgramTesting\bin\Debug\ProgramTesting.exe.config
+C:\Users\lenovo\documents\visual studio 2015\Projects\ProgramTesting\ProgramTesting\bin\Debug\ProgramTesting.exe
+C:\Users\lenovo\documents\visual studio 2015\Projects\ProgramTesting\ProgramTesting\bin\Debug\ProgramTesting.pdb
+C:\Users\lenovo\documents\visual studio 2015\Projects\ProgramTesting\ProgramTesting\obj\Debug\ProgramTesting.exe
+C:\Users\lenovo\documents\visual studio 2015\Projects\ProgramTesting\ProgramTesting\obj\Debug\ProgramTesting.pdb
+C:\Users\lenovo\documents\visual studio 2015\Projects\ProgramTesting\ProgramTesting\obj\Debug\ProgramTesting.csprojResolveAssemblyReference.cache
