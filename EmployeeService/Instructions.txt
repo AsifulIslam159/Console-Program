@@ -1,0 +1,24 @@
+
+
+For implementing API CRUD operation with postman use this information:
+content-type: application/json
+Accept: application/json
+Authorization: Bearer qbQr3X2yrYFEuDY0fQMAJ7adHipQUKPSM6uHRdMWrp2E6IH7XqGgDcYH3s68QfceZ5NKfDDKMx5onnD1il3hlTSQFkh9cN8hjIeuJw0nPlocS0kwk_pwGmkV5d8NPMrfpee3fAhkrqacAvr-UeVC3x-vjh172hJcIwDaZgL_aPY08a3X_QhlObAGlSymNQlCwyzVfHO3uWbrAN9lY7zTurGLWI7iOb_ZxMHaBO9vqEz0_Exc22H_Cb3ULXgajmeu6G54PoFFLMQwSu_GW-8yor8nV0NEG16Ztw4q4RtW1wmwTMALpZWt6sfEc7ZbynYGGyXWO1dFv2LbKPZAflykGwar4qfUqPrcQVo1zr_A0zow2ELoyzwNCUgpfozaB_bpbawE50FvhBzis6FtE-NvaHxNFOh2td4ICnCF1oq2mhrNp0sHEmbiit8IdgVicD89I5tqI4ezk-nYFw17cgjvtGU-EvRreUZ-GcxMObweDgs
+API end point Url: http://localhost:13330/api/employees
+One request body:
+{
+
+        "FirstName": "Fname",
+        "LastName": "Lname",
+        "Gender": "Female",
+        "Salary": 877124
+    }
+
+
+For Consuming API : 
+1. please start with login.html page
+2. Please use script.sql to generate database
+3. you can register new member and login after that you can update or delete data that we inserted by postman post method
+4.log out button logout from the page. 
+5. Session can also expire in 5 minutes and log out autometically
+
